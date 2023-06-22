@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = 'https://mern-crud-server-jws6.onrender.com/';
+const URL = "https://mern-crud-server-jws6.onrender.com/";
 
  
 
@@ -11,7 +11,7 @@ const URL = 'https://mern-crud-server-jws6.onrender.com/';
     //         "Access-Control-Allow-Origin": "*",
     //     }
     //   };
-    let token =  localStorage.getItem('myData');
+    let token =  localStorage.getItem('myData');    
       
     //console.log(token);
 

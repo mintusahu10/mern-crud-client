@@ -33,7 +33,7 @@ const HomePage = () => {
   return (
        < >
        <Header />
-       { account ?
+       {/* { account ? */}
       
        <>
         
@@ -51,7 +51,7 @@ const HomePage = () => {
         <Route path='/*' element={<NotFound />} />
       </Routes>
      </>
-     :
+     {/* :
      <>
      <Login/>
      <Routes>
@@ -61,7 +61,8 @@ const HomePage = () => {
      </>
       
        }
- </>
+  */}
+  </>
   );
 };
 
